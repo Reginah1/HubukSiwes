@@ -1,0 +1,119 @@
+*{
+    margin:0vw;
+    padding: 0vw;;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FEFDFF;
+    max-width: 480px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.mobile-container{
+    max-width: 480px;
+    margin: auto;
+    background-color: #FEFDFF;
+    height: 1px;
+    color: #242424;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-top:2% ;
+    flex-wrap:wrap ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: inline-flex;
+    width: 2vw;
+    height: 7vh;  
+    margin-left: 1rem;  
+    
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color:#FEFDFF;
+    color: #FEFDFF;
+    border-radius: 20px;
+    padding-top: 8px ;
+    margin-right: 1rem;
+    text-align: right;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: block;
+    
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FEFDFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:#6C2B89;
+color: #FEFDFF;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #231F20; color: #FEFDFF;}
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #FEFDFF;
+    height: 500px;
+    color: #242424;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color:#FEFDFF;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color:#242424;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color:#231F20;
+    color:#FEFDFF ;
+  }
+  
+  .active {
+    background-color:#FEFDFF;
+    color:#242424 ;
+  }
+  

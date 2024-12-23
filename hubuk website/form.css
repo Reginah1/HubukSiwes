@@ -1,0 +1,227 @@
+@font-face {
+    font-family: circularstd;
+    src: url(circular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: circularstd;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 2%;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+.logo span{
+    color: #231F20;
+    font-size: 32px; 
+}
+.nav-side{
+    margin-right: 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.roles{
+    font-size: 18px;
+    margin-right: 80px;
+}
+.atag{
+    font-size:18px ;
+    color:#FEFDFF ;
+    text-decoration: none;
+    background-color: #6C2B89;
+    border-radius: 15px;
+    padding:15px;
+    margin:5pxpx;
+    text-align: center;
+}
+.main-container{
+    max-width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;  
+    margin: auto;
+    padding: 10%; 
+}
+.main-container{
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading{
+    margin: 40px 50px;
+    padding: 50px 50px 20% 50%;
+}
+.header a{
+    margin: 10%;
+}
+.heading::content{
+    word-spacing: 12px;
+}
+.container .file input{
+    border: 1px dashed;
+    margin:  0 0 20px 0;
+    align-items: center;
+}
+.container .file{
+    margin: 20px 0 0 0;
+}
+.head{
+    font-size: 7vmax ;
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+}
+.h3{
+    font-size: 3vmax;
+    text-decoration: none;
+}
+.full-time, .remote{
+    color:#6C2B89 ;
+    background-color: #D8B3E9;
+    font-size: 18px;
+    padding: 0.5% 2%;
+    text-decoration: none;
+    border-radius: 21px;
+    
+}
+.container form .inline{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.container form .input{
+    width:calc(100% /2 - 50px); 
+    margin: 2% 0 3% 0;
+    
+}
+.formm{
+    max-width: 100%;
+}
+.forminput input{
+    width: 100%;
+   border-radius: 5px;
+   height: 100%;
+   padding: 2%;
+}
+.formm input{
+    border-color: #75869E;
+}
+.submit{
+    border-radius: 5px;
+    width: 10%;
+}
+.submit input{
+    background-color: #6C2B89;
+    color: #FEFDFF;
+    border-radius:5px;
+    padding: 10%;
+    margin: 20% 0 5% 0;
+}
+.container .input input{
+    width: 300px;
+    
+   
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 50% 5% 5% 5%;
+}
+
+.copyright{
+    margin-top: 70px;
+}
+footer h5{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #231F20;
+}
+.cols{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.follow-us-list{
+    padding: 2%;
+}
+.company-list{
+    padding: 2%;
+}
+.col-2{
+    display: flex;
+    gap: 50%;
+    margin-right: 150px;
+}
+.col-1 ul, .col-2 ul{
+    list-style: none;
+    font-size: 18px;
+}
+.col-1 li, .col-2 li{
+    display: block;
+    padding: 16px 17px;  
+}
+.col-1 li, .col-2 li a{
+    text-decoration: none;
+    color: #242424;
+}
+.description p{
+    font-size: 18px;
+    color: #231F20;
+}
+.logo2{
+    padding-bottom: 20px;
+}
+.file label{
+    font-size: 14px;
+}
+.in{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 3px dashed #75869E;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.file span{
+    font-size: 14px ;
+}
+.click{
+    font-size: 14px;
+}
+.warning{
+    color: #667085;
+    font-size: 12px;
+}
+.icon{
+    width: 5%;
+    height: 3vh;
+}
+.icon i{
+    color: #475467;
+}
